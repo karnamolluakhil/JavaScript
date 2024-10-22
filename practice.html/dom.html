@@ -1,0 +1,71 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div id="el1">fghghhndfbb</div>
+   <div id="el2">fghghhn</div>
+   <div id="el3">fghghhn</div>
+   <div id="el4">fghghhn</div>
+<script>
+let divid=document.getElementById("el1")
+console.log(divid)
+</script>
+</body>
+</html> -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> some content</h1>
+    <script>
+        let div = document.querySelector("h1") 
+        div.innerText = "text by js - dynamically"
+        console.log(div)
+    </script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Content</title>
+</head>
+<body>
+
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+
+    <script>
+        let arr = ["html", "css", "js", "react", "mysql"];
+        var div = document.querySelectorAll(".child"); 
+
+        for (let i = 0; i < div.length; i++) {
+            div[i].innerHTML = "<h1>" + arr[i] + "</h1>"; 
+        }
+    </script>
+
+</body>
+</html>
+
+</body>
+</html>

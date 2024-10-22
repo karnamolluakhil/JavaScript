@@ -1,0 +1,28 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Background Color</title>
+</head>
+<body>
+    <button onclick="Bg()">Click me</button>
+     <p id="colorDisplay">Current color: </p>
+    <script>
+        let arr = ["red", "blue", "green", "orange"];
+        var count = 0;
+
+        function Bg() {
+            document.body.style.backgroundColor = arr[count];
+            document.getElementById("colorDisplay").textContent = "Current color: " + arr[count]; 
+            count++; 
+            if (count >= arr.length) { 
+                count = 0;
+            }
+        }
+    </script>
+</body>
+</html>
+</body>
+</html>

@@ -1,0 +1,22 @@
+var str="hello"
+var str=str.split('').reverse('').join();
+console.log(str);
+
+var obj = {
+    name:'akhil',
+    age:23,
+    city:'hyderabad'
+}
+for (var k in obj){   //for in
+    var v = obj[k];
+    console.log(k+":"+v);
+}
+var obj = {
+    name:'akhil',
+    age:23,
+    city:'hyderabad'
+}
+for(var k of Object.keys(obj)){  //for off
+    var v = obj[k] 
+    console.log(k+":"+v);
+}

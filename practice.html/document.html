@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var ul = document.createElement("ul");
+        var li1 = document.createElement("li");
+        li1.innerHTML = "<b>" + "html" + "</b>";
+        var li2 = document.createElement("li");
+        li2.innerHTML = "<I>" + "css" + "</I>";
+        var li3 = document.createElement("li");
+        li3.innerHTML = "<u>" + "javascript" + "</u>";
+        ul.append(li1, li2, li3);
+        document.body.appendChild(ul);
+    </script> 
+</body>
+</html>
